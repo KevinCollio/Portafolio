@@ -235,6 +235,7 @@ span{
     align-items: center;
     justify-content: center;
     transition: .3s;
+    user-select: none;
 }
 
 .intereses:hover{
