@@ -275,3 +275,222 @@ span{
 .sobremi button:hover .overlay{
     width: 100%;
 }
+
+/* SECCION H A B I L I D A D E S */
+.skills{
+    background-color: #1d1e33;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.skills h2{
+    font-size: 35px;
+    font-family: 'Open Sans';
+    text-align: center;
+    padding: 20px 0;
+}
+.skills h4{
+    font-size: 20px;
+    font-family: 'Open Sans';
+    padding: 20px 0;
+}
+
+.skills .skill span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 20px;
+    user-select: none;
+}
+
+.skills .skill .barra-skill{
+    height: 8px;
+    width: 80%;
+    background-color: #252A2E;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.skills .skill .progreso{
+    background-color: #1CB698;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 6px;
+}
+
+.skills .skill .barra-skill span{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #1CB698;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+    color: #fff;
+    user-select: none;
+}
+/* SECCION J A V A S C R I P T */
+.skills .skill .python{
+    width: 0%;
+    animation: 2s python forwards;
+}
+@keyframes python {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
+.skills .skill .java{
+    width: 0%;
+    animation: 2s java forwards;
+}
+@keyframes java {
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+
+.skills .skill .pgadmin{
+    width: 0%;
+    animation: 2s pgadmin forwards;
+}
+@keyframes pgadmin {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+
+.skills .skill .postgresql{
+    width: 0%;
+    animation: 2s postgresql forwards;
+}
+@keyframes postgresql {
+    0%{width: 0%;}
+    100%{width: 55%;}
+}
+
+.skills .skill .mongodb{
+    width: 0%;
+    animation: 2s mongodb forwards;
+}
+@keyframes mongodb {
+    0%{width: 0%;}
+    100%{width: 55%;}
+}
+
+.skills .skill .git{
+    width: 0%;
+    animation: 2s git forwards;
+}
+@keyframes git {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+
+.skills .skill .visual{
+    width: 0%;
+    animation: 2s visual forwards;
+}
+@keyframes visual {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
+.skills .skill .py{
+    width: 0%;
+    animation: 2s py forwards;
+}
+@keyframes py {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+
+.skills .skill .scrum{
+    width: 0%;
+    animation: 2s scrum forwards;
+}
+@keyframes scrum {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+
+.skills .skill .org{
+    width: 0%;
+    animation: 2s org forwards;
+}
+@keyframes org {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+
+.skills .skill .atencion{
+    width: 0%;
+    animation: 2s atencion forwards;
+}
+@keyframes atencion {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
+.skills .skill .pro{
+    width: 0%;
+    animation: 2s pro forwards;
+}
+@keyframes pro {
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+
+.skills .skill .res{
+    width: 0%;
+    animation: 2s res forwards;
+}
+@keyframes res {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
+.skills .skill .time{
+    width: 0%;
+    animation: 2s time forwards;
+}
+@keyframes time {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
+.skills .skill .equipo{
+    width: 0%;
+    animation: 2s equipo forwards;
+}
+@keyframes equipo {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .adap{
+    width: 0%;
+    animation: 2s adap forwards;
+}
+@keyframes adap {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+
+.skills .skill .emp{
+    width: 0%;
+    animation: 2s emp forwards;
+}
+@keyframes emp {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+
+.skills .skill .com{
+    width: 0%;
+    animation: 2s com forwards;
+}
+@keyframes com {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
